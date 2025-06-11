@@ -1,10 +1,10 @@
-# Iris Classifier
+# ML Sentiment Analysis
 
 ---
 
 ## ℹ️ About the Project
 
-**Iris Classifier** is project that analyzes:
+**ML Sentiment Analysis** is project that analyzes:
 
 - Tuition Fees Distribution
 - Average Tuition Fees per Country
