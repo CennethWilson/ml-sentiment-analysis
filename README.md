@@ -4,14 +4,16 @@
 
 ## ℹ️ About the Project
 
-**ML Sentiment Analysis** is project that analyzes:
+**ML Sentiment Analysis** is project that:
 
-- Tuition Fees Distribution
-- Average Tuition Fees per Country
-- Living Cost vs Tuition
-- Tuition Fees Distribution by Program
-- Correlation Between Cost Components
-- Global Map of Annual Study Abroad
+- Classify Reviews based on Sentiment and evaluates Accuracy, Training Time, Testing Time, and Confusion Matrix, using:
+  - fastText
+  - BERT (HuggingFace)
+  - gpt-4o-mini (openAI)
+  - Long Short Term Memory (LSTM)
+  - textCNN
+  - Naive Bayes with TF-IDF
+  - Logistic Regression with TF-IDF
 
 ---
 
@@ -20,12 +22,16 @@
 - [Python](https://www.python.org/) — primary programming language
 - [PyCharm](https://www.jetbrains.com/pycharm/) — IDE
 
+- [Scikit-learn](https://scikit-learn.org/stable/) — machine learning, TF-IDF, naive bayes and logistic regression
+- [TensorFlow](https://www.tensorflow.org/) — Keras dependecies
 - [Pandas](https://pandas.pydata.org/) — data manipulation
 - [NumPy](https://numpy.org/) — number operations
 - [Matplotlib](https://matplotlib.org/) — plotting
 - [Seaborn](https://seaborn.pydata.org/) — data visualization
-- [SciPy](https://scipy.org/) — linear regression
-- [GeoPandas](https://geopandas.org/en/stable/) — map data
+- [fastText](https://fasttext.cc/) — fastText model
+- [HuggingFace Transformer](https://huggingface.co/) — BERT model
+- [openAI API](https://platform.openai.com/docs/overview) — gpt-4o-mini model
+- [Keras](https://keras.io/) — LSTM and CNN models
 
 ---
 
@@ -44,7 +50,7 @@ To run the project locally, you'll need:
 1. **Install the necessary libraries:**
 
    ```bash
-   pip install pandas numpy matplotlib seaborn scipy geopandas kaggle
+   pip install scikit-learn pandas numpy matplotlib seaborn fasttext transformers openai tensorflow keras kaggle
 
 2. **Download dataset through the terminal:**
 
@@ -71,6 +77,9 @@ To run the project locally, you'll need:
 ![Alt text](Figure_4.png?raw=true "Title")
 ![Alt text](Figure_5.png?raw=true "Title")
 ![Alt text](Figure_6.png?raw=true "Title")
+![Alt text](Figure_7.png?raw=true "Title")
+![Alt text](Figure_8.png?raw=true "Title")
+![Alt text](Figure_9.png?raw=true "Title")
 
 ## 📃 License
 
